@@ -5,15 +5,15 @@ function merge(intervals: number[][]): number[][] {
 
     intervals.sort((a, b) => a[0] - b[0]);
 
-    let result = [intervals[0]];
+    let result: number[][] = [intervals[0]];
 
-    for (let interval of intervals) {
+    for (let i = 1; i < intervals.length; i++) {
         let recent = result[result.length - 1];
 
-        if (recent[1] >= interval[0]) {
-            recent[1] = Math.max(recent[1], interval[1])
+        if (recent[1] >= intervals[i][0]) {
+            recent[1] = Math.max(recent[1], intervals[i][1])
         } else {
-            result.push(interval);
+            result.push(intervals[i]);
         }
     }
 
