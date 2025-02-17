@@ -18,4 +18,4 @@ function merge(intervals: number[][]): number[][] {
     }
 
     return result;
-};
+}
