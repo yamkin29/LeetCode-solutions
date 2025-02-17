@@ -12,7 +12,7 @@ function compose(functions: F[]): F {
             return (x: number) => fn(acc(x));
         }, (x:number) => x)(x)
     }
-};
+}
 
 /**
  * const fn = compose([x => x + 1, x => 2 * x])
