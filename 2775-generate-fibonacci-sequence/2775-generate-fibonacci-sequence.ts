@@ -12,7 +12,7 @@ function* fibGenerator(): Generator<number, any, number> {
         a = b;
         b = next;
     }
-};
+}
 
 /**
  * const gen = fibGenerator();

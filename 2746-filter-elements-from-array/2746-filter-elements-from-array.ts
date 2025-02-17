@@ -8,4 +8,4 @@ function filter(arr: number[], fn: Fn): number[] {
 
         return acc;
     }, [])
-};
+}
