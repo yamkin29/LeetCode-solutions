@@ -9,7 +9,7 @@ function createCounter(init: number): Counter {
     return {
         increment: () => ++counter,
         decrement: () => --counter,
-        reset: () => counter = init,
+        reset: () => (counter = init),
     }
 };
 
