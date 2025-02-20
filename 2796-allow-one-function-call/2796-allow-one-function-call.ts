@@ -8,7 +8,7 @@ function once(fn: Function): OnceFn {
             invoke = true;
             return fn(...args);
         } else {
-            return;
+            return undefined;
         }
     };
 }
