@@ -10,7 +10,7 @@ function expect(val: any): ToBeOrNotToBe {
                 return true;
             } else {
                 throw Error('Not Equal')
-            };
+            }
         },
 
         notToBe: (otherVal) => {
@@ -18,10 +18,10 @@ function expect(val: any): ToBeOrNotToBe {
                 return true; 
             } else {
                 throw Error('Equal')
-            };
+            }
         }
     }
-};
+}
 
 /**
  * expect(5).toBe(5); // true
