@@ -1,5 +1,5 @@
 function createHelloWorld() {
-    const str = 'Hello World'
+    const str: string = 'Hello World'
     return function(...args): string {
         return str;
     };
