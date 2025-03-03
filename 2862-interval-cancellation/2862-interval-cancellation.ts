@@ -8,7 +8,7 @@ function cancellable(fn: Fn, args: JSONValue[], t: number): Function {
     return function cancelFn() {
         clearInterval(intervalId);
     };
-};
+}
 
 /**
  *  const result = [];
