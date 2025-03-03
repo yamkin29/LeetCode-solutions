@@ -9,4 +9,4 @@ function isEmpty(obj: Obj): boolean {
     } else {
         return false;
     }
-};
+}

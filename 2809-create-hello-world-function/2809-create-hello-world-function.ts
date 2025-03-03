@@ -3,7 +3,7 @@ function createHelloWorld() {
     return function(...args): string {
         return str;
     };
-};
+}
 
 /**
  * const f = createHelloWorld();
