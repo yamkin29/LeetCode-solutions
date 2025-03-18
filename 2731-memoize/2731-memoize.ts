@@ -1,7 +1,7 @@
 type Fn = (...params: number[]) => number
 
 function memoize(fn: Fn): Fn {
-    let cash = new Map();
+    let cash = new Map<string, number>();
     let callCount = 0;
 
     return function(...args) {
