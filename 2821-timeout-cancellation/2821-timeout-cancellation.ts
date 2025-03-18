@@ -6,7 +6,7 @@ function cancellable(fn: Fn, args: JSONValue[], t: number): Function {
     return function cancelFn() {
         clearTimeout(timeoutId);
     }
-};
+}
 
 /**
  *  const result = [];

@@ -12,7 +12,7 @@ class ArrayWrapper {
     toString(): string {
         return `[${this.nums.toString()}]`;
     }
-};
+}
 
 /**
  * const obj1 = new ArrayWrapper([1,2]);

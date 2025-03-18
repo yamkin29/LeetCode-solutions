@@ -11,7 +11,7 @@ function createCounter(init: number): Counter {
         decrement: () => --counter,
         reset: () => (counter = init),
     }
-};
+}
 
 /**
  * const counter = createCounter(5)
