@@ -14,4 +14,8 @@
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yamkin29/LeetCode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/yamkin29/LeetCode-solutions/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
