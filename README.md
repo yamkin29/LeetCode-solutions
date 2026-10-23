@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/yamkin29/LeetCode-solutions/tree/master/0014-longest-common-prefix) |
 | [0056-merge-intervals](https://github.com/yamkin29/LeetCode-solutions/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yamkin29/LeetCode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1816-truncate-sentence](https://github.com/yamkin29/LeetCode-solutions/tree/master/1816-truncate-sentence) |
@@ -23,8 +24,13 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/yamkin29/LeetCode-solutions/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/yamkin29/LeetCode-solutions/tree/master/0058-length-of-last-word) |
 | [0709-to-lower-case](https://github.com/yamkin29/LeetCode-solutions/tree/master/0709-to-lower-case) |
 | [1108-defanging-an-ip-address](https://github.com/yamkin29/LeetCode-solutions/tree/master/1108-defanging-an-ip-address) |
 | [1816-truncate-sentence](https://github.com/yamkin29/LeetCode-solutions/tree/master/1816-truncate-sentence) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/yamkin29/LeetCode-solutions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
